@@ -22,8 +22,8 @@ app.use('/public',express.static(path.join(__dirname, '/public')));
 
 
 
-app.get('/', indexRouter);
-app.get('/user', userRouter);
+app.use('/', indexRouter);
+app.use('/user', userRouter);
 
 
 
