@@ -1,9 +1,5 @@
 body {
-<<<<<<< HEAD
-  
-=======
  
->>>>>>> 33849622f7b30886a56cd60289a3429967d78637
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: aliceblue;
 }
@@ -13,16 +9,11 @@ a {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-/* body{
-  background-color: red;
-} */
-=======
 
 
 /*navbar style*/
 nav {
-  background-color: #000080;
+  background-color: #70a1ff;
 }
 span.navbar-toggler-icon{
   color: white;
@@ -41,7 +32,7 @@ span.navbar-toggler-icon{
 
 }
 .nav-item .nav-link:hover {
-  background-color: red;
+  background-color: #FD7272;
 }
 
 .nav-item .nav-link:visited {
@@ -55,8 +46,12 @@ span.navbar-toggler-icon{
 /*}*/
 
 .navbar-nav li.active {
-  background-color:#d90000;
+  background-color:#222f3e;
   color:#fff;
 
 }
->>>>>>> 33849622f7b30886a56cd60289a3429967d78637
+
+#pad{
+  text-align: center;
+  margin-right: 20px;
+}
