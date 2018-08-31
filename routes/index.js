@@ -48,7 +48,7 @@ router.get('/api/', (req,res)=>{
 })
 router.get('/api/jobs', (req,res)=>{
     googleNews
-   .search('full stack devloper')
+   .search('fullstack devloper')
    .then(resp => res.json(resp));
 })
 
