@@ -1,13 +1,62 @@
 body {
+<<<<<<< HEAD
   
+=======
+ 
+>>>>>>> 33849622f7b30886a56cd60289a3429967d78637
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: aliceblue;
 }
 
 a {
   color: #00B7FF;
+  text-decoration: none;
 }
 
+<<<<<<< HEAD
 /* body{
   background-color: red;
 } */
+=======
+
+
+/*navbar style*/
+nav {
+  background-color: #000080;
+}
+span.navbar-toggler-icon{
+  color: white;
+  background-color: #dadada;
+}
+
+#navbarSupportedContent ul{
+  padding-left: 35px;
+  color: white;
+}
+.navbar-nav li{
+  padding-right: 5px;
+}
+.nav-item .nav-link:link {
+  color: white;
+
+}
+.nav-item .nav-link:hover {
+  background-color: red;
+}
+
+.nav-item .nav-link:visited {
+  color: white;
+  /*background-color: red;*/
+}
+
+/*.nav-item .nav-link:active {*/
+/*color: white;*/
+/*background-color: red;*/
+/*}*/
+
+.navbar-nav li.active {
+  background-color:#d90000;
+  color:#fff;
+
+}
+>>>>>>> 33849622f7b30886a56cd60289a3429967d78637
