@@ -20,6 +20,15 @@ router.get('/blockchain',(req,res)=>{
     res.render('blockchain')
 });
 
+router.get('/angular',(req,res)=>{
+    res.render('angular')
+});
+
+router.get('/mongodb',(req,res)=>{
+    res.render('mongodb')
+});
+
+
 router.get('/jobs',(req,res)=>{
     res.render('jobs')
 });
@@ -39,6 +48,18 @@ router.get('/api/node', (req,res)=>{
 router.get('/api/blockchain', (req,res)=>{
     googleNews
    .search('blockchain')
+   .then(resp => res.json(resp));
+})
+
+router.get('/api/angular', (req,res)=>{
+    googleNews
+   .search('angular js')
+   .then(resp => res.json(resp));
+})
+
+router.get('/api/mongodb', (req,res)=>{
+    googleNews
+   .search('mongodb js')
    .then(resp => res.json(resp));
 })
 router.get('/api/', (req,res)=>{
