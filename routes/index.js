@@ -43,7 +43,7 @@ router.get('/api/blockchain', (req,res)=>{
 })
 router.get('/api/', (req,res)=>{
     googleNews
-   .search('mern js')
+   .search('javascript')
    .then(resp => res.json(resp));
 })
 router.get('/api/jobs', (req,res)=>{
