@@ -12,6 +12,20 @@ router.get('/react',(req,res)=>{
     res.render('react')
 });
 
+router.get('/node',(req,res)=>{
+    res.render('node')
+});
+
+router.get('/blockchain',(req,res)=>{
+    res.render('blockchain')
+});
+
+router.get('/jobs',(req,res)=>{
+    res.render('jobs')
+});
+
+
+
 router.get('/api/react', (req,res)=>{
     googleNews
    .search('react js')
