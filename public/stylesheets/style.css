@@ -1,30 +1,52 @@
 body {
-  padding: 50px;
+ 
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: aliceblue;
 }
 
 a {
   color: #00B7FF;
+  text-decoration: none;
 }
 
-/* body{
+
+
+/*navbar style*/
+nav {
+  background-color: #000080;
+}
+span.navbar-toggler-icon{
+  color: white;
+  background-color: #dadada;
+}
+
+#navbarSupportedContent ul{
+  padding-left: 35px;
+  color: white;
+}
+.navbar-nav li{
+  padding-right: 5px;
+}
+.nav-item .nav-link:link {
+  color: white;
+
+}
+.nav-item .nav-link:hover {
   background-color: red;
-} */
+}
 
+.nav-item .nav-link:visited {
+  color: white;
+  /*background-color: red;*/
+}
 
-.navbar-nav li:link { /* Essentially means a[href], or that the link actually goes somewhere */
-  color: blue;
-}
-.navbar-nav li:visited {
-  color: purple;
+/*.nav-item .nav-link:active {*/
+/*color: white;*/
+/*background-color: red;*/
+/*}*/
+
+.navbar-nav li.active {
   background-color:#d90000;
-}
-.navbar-nav li:hover {
-  color: green;
-  background-color:#d90000;
-}
-.navbar-nav li:active {
-  color: red;
-  background-color : black;
+  color:#fff;
+
 }
