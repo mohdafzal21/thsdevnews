@@ -13,7 +13,7 @@ a {
 
 /*navbar style*/
 nav {
-  background-color: #70a1ff;
+  background-color: #000080;
 }
 span.navbar-toggler-icon{
   color: white;
@@ -32,7 +32,7 @@ span.navbar-toggler-icon{
 
 }
 .nav-item .nav-link:hover {
-  background-color: #FD7272;
+  background-color: red;
 }
 
 .nav-item .nav-link:visited {
@@ -46,12 +46,12 @@ span.navbar-toggler-icon{
 /*}*/
 
 .navbar-nav li.active {
-  background-color:#222f3e;
+  background-color:#d90000;
   color:#fff;
 
 }
 
-#pad{
-  text-align: center;
-  margin-right: 20px;
+ #pad {
+  margin: 0 auto;
+  display: flex
 }
