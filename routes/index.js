@@ -17,5 +17,25 @@ router.get('/api/react', (req,res)=>{
    .search('react js')
    .then(resp => res.json(resp));
 })
+router.get('/api/node', (req,res)=>{
+    googleNews
+   .search('node js')
+   .then(resp => res.json(resp));
+})
+router.get('/api/blockchain', (req,res)=>{
+    googleNews
+   .search('blockchain')
+   .then(resp => res.json(resp));
+})
+router.get('/api/', (req,res)=>{
+    googleNews
+   .search('mern js')
+   .then(resp => res.json(resp));
+})
+router.get('/api/jobs', (req,res)=>{
+    googleNews
+   .search('full stack devloper')
+   .then(resp => res.json(resp));
+})
 
 module.exports = router;
