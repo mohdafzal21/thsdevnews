@@ -27,7 +27,7 @@ news.generateMarkup = function(){
 
         template += '<div class="left">';
 
-        template += '<img src= "'+ id.thumbnailUrl +'">';
+        template += '<img   src="' + id.thumbnailUrl + '" onerror=\'this.onerror = undefined; this.src="public/images/ths.png"\'  alt="image items" >';
 
         template += '</div>';
 
